@@ -1,0 +1,49 @@
+body {
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+#content {
+    max-width: 60%;
+    margin: 40px auto;
+    border: 1px solid black;
+    padding: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+h2 {
+    font-size: 1rem;
+    color:rgb(101, 133, 192);
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+hr {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.mission {
+    margin-top: 50px;
+}
+.section-title {
+    font-style: italic;
+}
+ol, li {
+    margin: auto;
+    margin-bottom: 15px;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+}
