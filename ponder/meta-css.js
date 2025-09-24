@@ -36,3 +36,7 @@ selectElem.addEventListener('change', function(){
     console.log(codeValue);
     document.getElementById(codeValue).style.color = 'red';
 })
+
+const image = document.querySelector('img');
+image.setAttribute('src', 'images/logos.png')
+image.setAttribute('alt', 'new logo with black background')
