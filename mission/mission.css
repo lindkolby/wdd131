@@ -47,3 +47,9 @@ img {
     margin: 0 auto;
     margin-top: 60px;
 }
+select {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 5px 10px;
+}
