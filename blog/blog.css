@@ -23,9 +23,6 @@ header, footer {
     color: #ffc107;
     text-decoration: none;
 }
-#movie-list {
-    padding: 0 2rem;
-}
 .book {
     border: 2px solid #ccc;
     padding: 1rem;
@@ -33,11 +30,14 @@ header, footer {
     max-width: 700px;
     margin: 20px auto;
 }
-.book h2 {
-    text-align: left;
-}
-.book p {
+.details {
     text-align: right;
+}
+.book h2 {
+    text-align: center;
+}
+.summary {
+    text-align: auto;
 }
 .book img {
     max-width: 100%;
@@ -63,6 +63,9 @@ header, footer {
     .book img {
         grid-row: 1/6;
         grid-column: 1/2;
+    }
+    .details {
+        text-align: center;
     }
 
 }
