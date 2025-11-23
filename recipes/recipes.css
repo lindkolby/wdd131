@@ -9,6 +9,12 @@ h1, h2 {
     font-family: "Amatic SC", cursive;
     margin: 0;
 }
+
+#recipesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
   
 .header {
     display: flex;
@@ -57,7 +63,7 @@ h1, h2 {
 .recipe-card {
     border: 1px solid #999;
     border-radius: 6px;
-    margin: 1.5rem auto;
+    margin: 0 auto;
     max-width: 350px;
     display: flex;
     flex-direction: column;
